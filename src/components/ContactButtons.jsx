@@ -1,6 +1,6 @@
 const ContactButtons = () => {
-  const phoneNumber = "+919876543210";
-  const whatsappNumber = "919876543210";
+  const phoneNumber = "+917549073519";
+  const whatsappNumber = "+917549073519";
 
   return (
     <div className="fixed bottom-6 right-6 flex flex-col gap-4 z-50">

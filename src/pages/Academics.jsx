@@ -120,17 +120,43 @@ const Academics = () => {
       </section>
 
       {/* ACADEMIC HIGHLIGHTS */}
-      <section className="py-20 max-w-6xl mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold mb-6">
-          Academic <span className="text-yellow-400">Highlights</span>
-        </h2>
-        <ul className="text-gray-300 max-w-4xl mx-auto leading-relaxed list-disc list-inside">
-          <li>Highly qualified and experienced faculty</li>
-          <li>Regular parent-teacher interaction</li>
-          <li>Olympiads, competitions, and co-curricular activities</li>
-          <li>Focus on discipline, ethics, and leadership</li>
-        </ul>
-      </section>
+ {/* ACADEMIC HIGHLIGHTS */}
+<section className="py-20 max-w-6xl mx-auto px-6 text-center">
+  <h2 className="text-3xl md:text-4xl font-bold mb-12">
+    Academic <span className="text-yellow-400">Highlights</span>
+  </h2>
+
+  <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+    {/* Card 1 */}
+    <div className="bg-blue-950 p-6 rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition-transform transition-shadow duration-300 max-w-md mx-auto">
+      <h3 className="text-yellow-400 font-semibold mb-2">Faculty</h3>
+      <p className="text-gray-300">Highly qualified and experienced faculty</p>
+    </div>
+
+    {/* Card 2 */}
+    <div className="bg-blue-950 p-6 rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition-transform transition-shadow duration-300 max-w-md mx-auto">
+      <h3 className="text-yellow-400 font-semibold mb-2">Parent Interaction</h3>
+      <p className="text-gray-300">Regular parent-teacher interaction</p>
+    </div>
+
+    {/* Card 3 */}
+    <div className="bg-blue-950 p-6 rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition-transform transition-shadow duration-300 max-w-md mx-auto">
+      <h3 className="text-yellow-400 font-semibold mb-2">Activities</h3>
+      <p className="text-gray-300">Olympiads, competitions, and co-curricular activities</p>
+    </div>
+
+    {/* Card 4 */}
+    <div className="bg-blue-950 p-6 rounded-xl shadow-md hover:shadow-xl hover:scale-105 transition-transform transition-shadow duration-300 max-w-md mx-auto">
+      <h3 className="text-yellow-400 font-semibold mb-2">Discipline & Leadership</h3>
+      <p className="text-gray-300">Focus on discipline, ethics, and leadership</p>
+    </div>
+  </div>
+</section>
+
+
+
+
+
 
     </div>
   );

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-slate-950 text-gray-300">
+    <footer className="bg-blue-950 text-gray-300">
 
       {/* TOP INFO STRIP */}
       <div className="bg-blue-900 text-white py-5">

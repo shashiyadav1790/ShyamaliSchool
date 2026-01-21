@@ -20,12 +20,12 @@ const Admission = () => {
           >
             Apply Now
           </Link>
-          <a
+          <Link
             href="tel:+911234567890"
             className="border border-yellow-400 px-6 py-3 rounded-full font-semibold hover:bg-yellow-400 hover:text-blue-950 transition"
           >
             Call for Enquiry
-          </a>
+          </Link>
         </div>
       </section>
 

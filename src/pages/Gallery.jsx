@@ -12,6 +12,7 @@ import g2 from "../assets/gallery2.jpg";
 import g3 from "../assets/gallery3.jpg";
 import g4 from "../assets/gallery4.jpg";
 import g5 from "../assets/gallery5.jpg";
+import { Link } from "react-router-dom";
 
 const images = [g1, g2, g3, g4, g5];
 

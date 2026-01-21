@@ -1,4 +1,5 @@
 import { Helmet } from "react-helmet-async";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
   return (
@@ -32,12 +33,12 @@ const Contact = () => {
             <div className="text-yellow-400 text-4xl mb-4">📞</div>
             <h3 className="text-xl font-semibold mb-2">Call Us</h3>
             <p className="text-gray-300 mb-4">Speak directly with our office</p>
-            <a
+            <Link
               href="tel:+911234567890"
               className="text-yellow-400 font-semibold"
             >
-              +91 12345 67890
-            </a>
+              +91 7549073519
+            </Link>
           </div>
 
           {/* Email */}
@@ -45,12 +46,12 @@ const Contact = () => {
             <div className="text-yellow-400 text-4xl mb-4">✉️</div>
             <h3 className="text-xl font-semibold mb-2">Email Us</h3>
             <p className="text-gray-300 mb-4">Send us your queries anytime</p>
-            <a
+            <Link
               href="mailto:info@shyamaliglobal.edu.in"
               className="text-yellow-400 font-semibold"
             >
-              info@shyamaliglobal.edu.in
-            </a>
+              info@shyamaliglobalschool.com
+            </Link>
           </div>
 
           {/* Location */}
@@ -90,14 +91,14 @@ const Contact = () => {
         </p>
         <div className="flex justify-center gap-4 flex-wrap">
           <a
-            href="https://wa.me/911234567890"
+            href="https://wa.me/+91 7549073519"
             target="_blank"
             className="bg-green-500 px-8 py-3 rounded-full font-semibold hover:scale-105 transition"
           >
             WhatsApp Us
           </a>
           <a
-            href="tel:+911234567890"
+            href="tel:+91 7549073519"
             className="bg-yellow-400 text-blue-950 px-8 py-3 rounded-full font-semibold hover:scale-105 transition"
           >
             Call Now

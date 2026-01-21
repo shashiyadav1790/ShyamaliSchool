@@ -20,8 +20,8 @@ const Navbar = () => {
       {/* TOP STRIP (Trust Layer) */}
       <div className="hidden md:block bg-blue-950 text-gray-200 text-sm">
         <div className="max-w-7xl mx-auto px-6 py-2 flex justify-between">
-          <span>📞 +91 12345 67890</span>
-          <span>✉️ info@shyamaliglobal.edu.in</span>
+          <span>📞 +91 7549073519</span>
+          <span>✉️ info@shyamaliglobalschool.in</span>
         </div>
       </div>
 
@@ -119,13 +119,13 @@ const Navbar = () => {
               </NavLink>
             ))}
 
-            <Link
+            <a
               to="/admission"
               onClick={() => setOpen(false)}
               className="block text-center bg-blue-900 text-white py-3 rounded-xl font-semibold mt-4"
             >
               Apply for Admission
-            </Link>
+            </a>
           </div>
         </div>
       )}
