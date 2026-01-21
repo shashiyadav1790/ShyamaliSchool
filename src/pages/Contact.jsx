@@ -33,12 +33,12 @@ const Contact = () => {
             <div className="text-yellow-400 text-4xl mb-4">📞</div>
             <h3 className="text-xl font-semibold mb-2">Call Us</h3>
             <p className="text-gray-300 mb-4">Speak directly with our office</p>
-            <Link
+            <a
               href="tel:+911234567890"
               className="text-yellow-400 font-semibold"
             >
               +91 7549073519
-            </Link>
+            </a>
           </div>
 
           {/* Email */}
@@ -46,12 +46,12 @@ const Contact = () => {
             <div className="text-yellow-400 text-4xl mb-4">✉️</div>
             <h3 className="text-xl font-semibold mb-2">Email Us</h3>
             <p className="text-gray-300 mb-4">Send us your queries anytime</p>
-            <Link
+            <a
               href="mailto:info@shyamaliglobal.edu.in"
               className="text-yellow-400 font-semibold"
             >
               info@shyamaliglobalschool.com
-            </Link>
+            </a>
           </div>
 
           {/* Location */}
